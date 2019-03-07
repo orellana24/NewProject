@@ -1,0 +1,502 @@
+/*
+Theme Name: Pigflex Theme 2.0
+Theme URI: http://pigflex.com/
+Author: Fabricio Orellana Cerdas.
+Author URI: http:///
+Description: 100% customized template.
+Version: 2.0
+*/
+
+/* Normalize */
+* {
+    padding: 0;
+    margin: 0;
+       
+  }
+  /* Normalize */
+  
+  /*font*/
+  @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+  /*font*/
+  
+  /*New css------------------------------------*/
+  
+  /*============LANDING II STYLES===============*/
+  .bg-landing
+  {
+      padding: 10%;
+      height:auto;
+      background: url('http://localhost/wordpress/wp-content/themes/mejoremosCR/image/bg-landing2.jpg');
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; 
+  
+  }
+  
+  /*Nav styles------------*/
+  .nav-link
+  {
+      font-family: 'Open Sans';
+      color: #fff !important;
+      text-transform: uppercase;
+      font-weight: 400;
+      letter-spacing: 1px;
+      transition:ease-in-out 0.3s;
+  }
+  .nav-link:hover
+  {
+      font-family: 'Open Sans';
+      color: gray;
+      text-transform: uppercase;
+      text-decoration: none;
+      transition: ease-in-out 0.3s;
+  }
+  
+  .bg-nav
+  {
+  z-index: 900;
+  position: fixed;
+  background: linear-gradient(to bottom, #041125 95%, #ffffff00);
+  background: -webkit-linear-gradient(to bottom, #041125 95%, #ffffff00);
+  }
+  .tittleLanding
+  {
+      letter-spacing:3px;
+      font-family: 'Open Sans';
+      font-weight: 800;
+      color: #fff !important;
+      font-size: 40px;
+      text-transform: uppercase;
+      text-align: justify;
+      -webkit-text-stroke-width:6px;
+      -webkit-text-stroke-color: #fff;
+  }
+  .tittle2Landing
+  {
+      letter-spacing:3px;
+      
+      font-family: 'Open Sans';
+      font-weight: bolder;
+      color: gray !important;
+      font-size: 40px;
+      text-transform: uppercase;
+      text-align: justify;
+      -webkit-text-stroke-width:6px;
+      -webkit-text-stroke-color: gray;
+    
+  }
+  
+  .subtittle
+  {
+    
+      text-align: center;
+      background: gray;
+     letter-spacing:5px;
+      font-family: 'Open Sans';
+      font-weight: 100;
+      color: #fff !important;
+      font-size: 20px;
+      text-transform: uppercase;
+     
+  }
+  .subtittle2
+  {
+    
+      text-align: center;
+      background: #fff;
+     letter-spacing:5px;
+      font-family: 'Open Sans';
+      font-weight: 100;
+      color: #000 !important;
+      font-size: 20px;
+      text-transform: uppercase;
+     
+  }
+  
+  .bg-landing2
+  {
+      padding-top: 10%;
+      padding-bottom: 10%;
+      height:auto;
+      background: url('http://localhost/wordpress/wp-content/themes/mejoremosCR/image/bg-landing2-1.jpg');
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;  
+  
+  
+  }
+     
+  /* =======================================footer*/
+  .footersub
+  {
+      letter-spacing:5px;
+      font-family: 'Open Sans';
+      font-weight: 800;
+      color: #fff !important;
+      font-size: 25px;
+      text-transform: uppercase;
+      text-align: justify; 
+      -webkit-text-stroke-width:3px;
+      -webkit-text-stroke-color: #fff;
+  }
+  .footesub2
+  {
+    
+      text-align: center;
+     letter-spacing:5px;
+      font-family: 'Open Sans';
+      font-weight: 100;
+      color: #fff !important;
+      font-size: 20px;
+      text-transform: uppercase;
+     
+  }
+  .desarrollado
+  {
+    
+      text-align: center;
+     letter-spacing:5px;
+      font-family: 'Open Sans';
+      font-weight: 100;
+      color: #fff !important;
+      font-size:12px;
+      text-transform: uppercase;
+     
+  }
+  .desarrollado a
+  {
+      text-decoration: none;
+      color: rgb(208, 71, 250) !important;
+     
+  }
+  
+    .modal-dialog
+    {
+        background: #000 !important;
+        height: auto !important;
+        max-width: 100% !important;
+        position: relative;
+        z-index: 10000;
+    }
+  
+    .contact-links
+    {
+        text-decoration: none;
+        color: gray;
+    }
+    .contact-links:hover
+    {
+        text-decoration: none;
+        color: gray;
+    }
+   
+
+    footer
+    {
+      
+      background: linear-gradient(to bottom, #504f4f 0%, black 100%), radial-gradient(at top center, #504f4f 0%, black 100%) !important; 
+      background-blend-mode: multiply,multiply;
+     
+    }
+  /* =======================================footer*/
+  
+  /* Common style */
+   figure {
+      position: relative;
+      font-family: 'Open Sans';
+      overflow: hidden;
+      margin:0 auto !important;
+      max-width:300px;
+      min-width:200px; 
+      height: 230px;
+      background: gray;
+      text-align: center;
+      box-sizing: content-box;
+  }
+  
+  figure img {
+      position: relative;
+      display: inline-block;
+      min-height: 100%;
+      max-width: 100%;
+      opacity: 0.8;
+  }
+  
+  figure figcaption {
+      
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 1.25em;
+      -webkit-backface-visibility: hidden;
+      backface-visibility: hidden;
+  }
+   figure figcaption::before,
+   figure figcaption::after {
+      pointer-events: none;
+  }
+  
+   figure figcaption,
+    {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+  }
+
+
+  figure figcaption > a
+  {
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+  /* Anchor will cover the whole item by default */
+  /* For some effects it will show as a button */
+ 
+  /*====Caption====*/
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .caption {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: BLACK;
+  }
+  
+  .contenedor:hover .caption {
+    opacity: 1;
+  }
+  
+  .text-cap {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+/*====Caption====*/
+  /*---------------*/
+  /***** Roxy *****/
+  /*---------------*/
+  
+  figure.effect-roxy {
+      background:#808080;;
+      background: #808080;;
+  }
+  
+  figure.effect-roxy img {
+      max-width: none;
+      width: -webkit-calc(100% + 60px);
+      width: calc(100% + 60px);
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+      -webkit-transform: translate3d(-50px,0,0);
+      transform: translate3d(-50px,0,0);
+  }
+  
+  figure.effect-roxy figcaption::before {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      bottom: 10px;
+      left: 10px;
+      border: 2px solid #fff;
+      background: -webkit-linear-gradient(top, rgba(1, 1, 2, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
+      background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
+      content: '';
+      opacity: 0;
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+      -webkit-transform: translate3d(-20px,0,0);
+      transform: translate3d(-20px,0,0);
+  }
+  
+  figure.effect-roxy figcaption {
+    padding:15px;
+      text-align: left;
+  }
+ 
+  figure.effect-roxy h2 {
+   display: block;
+   
+   font-size:100%;
+   font-weight: 800;
+  }
+  
+  figure.effect-roxy p {
+        text-align: center;
+      opacity: 1;
+      
+      -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+      transition: opacity 0.35s, transform 0.35s;
+      -webkit-transform: translate3d(-10px,0,0);
+      transform: translate3d(-10px,0,0);
+  }
+
+  figure.effect-roxy h5 {
+    font-size: 12px;
+    
+    font-weight: 800;
+    opacity: 1;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-10px,0,0);
+    transform: translate3d(-10px,0,0);
+}
+
+  
+  figure.effect-roxy:hover img {
+      opacity: 0.7;
+      -webkit-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+  }
+  
+  figure.effect-roxy:hover figcaption::before,
+  figure.effect-roxy:hover p,figure.effect-roxy:hover h5, figure.effect-roxy:hover a  {
+      
+        opacity: 1;
+      -webkit-transform: translate3d(0,0,0);
+      transform: translate3d(0,0,0);
+  }
+ 
+
+/*---------------*/
+/***** Sadie *****/
+/*---------------*/
+
+figure.effect-sadie figcaption::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(top, rgba(1, 1, 2, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 75%);
+    content: '';
+    opacity: 0;
+    -webkit-transform: translate3d(0,50%,0);
+    transform: translate3d(0,50%,0);
+}
+
+figure.effect-sadie h2 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    color:#02070f;
+    font-weight: 800;
+    letter-spacing: 2px;
+    -webkit-transition: -webkit-transform 0.35s, color 0.35s;
+    transition: transform 0.35s, color 0.35s;
+    -webkit-transform: translate3d(0,-50%,0);
+    transform: translate3d(0,-50%,0);
+}
+
+figure.effect-sadie figcaption::before,
+figure.effect-sadie p {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-sadie p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2em;
+    width: 100%;
+    opacity: 0;
+    -webkit-transform: translate3d(0,10px,0);
+    transform: translate3d(0,10px,0);
+}
+
+figure.effect-sadie:hover h2 {
+    color: #fff;
+    -webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+    transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+}
+
+figure.effect-sadie:hover figcaption::before ,
+figure.effect-sadie:hover p {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+/*===============================================TESTIMONIOS SECCION=*/
+.text-testimonios
+{
+    font-weight: 600;
+    color:#000;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 13px;
+}
+.text-testimonios span
+{
+    -webkit-text-stroke-width:2px;
+      -webkit-text-stroke-color: #000;
+    font-weight: 800;
+    color:#000;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+/*===============================================TESTIMONIOS SECCION=*/
+/*============GAP DEVICES===============*/
+@media screen and (max-width: 450px) {
+    
+    .tittleLanding
+    {
+        -webkit-text-stroke-width:3px;
+      -webkit-text-stroke-color: #fff;
+        color: #fff !important;
+        font-size: 30px;
+       
+    }
+    .tittle2Landing
+    {
+        -webkit-text-stroke-width:3px;
+        color: gray !important;
+        font-size: 30px;
+      
+    }
+    
+    .subtittle
+    {
+        font-size:18px;
+    }
+    .subtittle2
+    {
+        font-size: 18px;
+    }
+    .footersub
+  {
+      font-size: 20px;
+  }
+    .footesub2
+    {
+        font-size: 18px;  
+    }
+}
+/*============GAP DEVICES===============*/
+
+  /*============LANDING II STYLES===============*/

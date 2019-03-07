@@ -1,0 +1,408 @@
+<?php 
+    /* Template Name: template_landingPage2*/
+?>
+
+<!DOCTYPE html>
+<html <?php language_attributes(); ?>>
+    <head>
+         <!-- BoostStrap 4 -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <!-- BoostStrap 4 -->
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/stylesLandingSingle.css" />          
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="http://www.mejoremoscostarica.com/wp-content/themes/mejoremosCR/style.css" type="text/css">    
+        <meta charset="<?php bloginfo( 'charset' ); ?>" />
+        <meta name="viewport" content="width=device-width" />
+        <title>Mejoremos Costa RIca | Landing 2</title>
+        <link rel="profile" href="http://gmpg.org/xfn/11" />
+        <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+        <link rel='shortcut icon' type='image/x-icon' href='<?php echo get_template_directory_uri(); ?>/image/mejoremos-icon.ico' />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/module/slicknav/slicknav.css" />
+      
+        <script src="<?php echo get_template_directory_uri(); ?>/module/slicknav/jquery.slicknav.js"></script>
+        <script>
+        $(function(){
+            $('#menu-menu-1').slicknav({
+                label: ''
+            });
+        });
+        </script>
+        
+        <?php wp_head(); ?>
+    </head>
+    
+    
+ 
+<body>
+
+
+
+               <!--NAVIGATION-->
+        
+ <div id="nav" class="container-fluid bg-nav "> 
+     <div class="row">      
+    <nav class="navbar navbar-expand-xl navbar-dark col-12">
+            
+    <div class="col-xl-2 col-lg-2 col-md-3 col-5 d-xl-none d-lg-block">
+              <a  href="#">
+                            <img width="200px;" src="http://g-noma.com/mejoremosnew/wp-content/themes/mejoremosCR/image/mejoremos-logo.png" alt="<?php echo $logo['alt']; ?>" />
+              </a>
+        </div>      
+      
+
+        <!--MOBILE TRIGGER-->            
+              <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                
+                  
+        <!--SHOWS DESKTOP NAV-->  
+                <header class=" container-fluid  d-xl-block d-lg-none d-md-none d-none ">
+                <div class="row">
+                    <div id="menu" class="col-12 text-center">
+                        <ul class="navbar-nav  justify-content-center ">
+                            <li class="nav-item d-flex align-self-center">
+                                <a class="nav-link  links-nav" href="#inicio">Inicio</a>
+                            </li>
+                            <li class="nav-item d-flex align-self-center">
+                                <a class="nav-link  links-nav" href="#capacitaciones">Capacitaciones</a>
+                            </li>
+                            <li class="nav-item d-flex align-self-center">
+                                <a class="nav-link  links-nav" href="#testimonios" >Testimonios</a>
+                            </li>
+                            
+                            <li class="nav-item d-flex align-self-center mx-3">
+                                <a class="nav-link" href="#"><img  src="http://localhost/wordpress/wp-content/themes/mejoremosCR/image/mejoremos-logo.png" ></a>
+                            </li>
+                            <li class="nav-item d-flex align-self-center">
+                                <a class="nav-link  links-nav d-flex align-self-center" href="#facilitadores">Facilitadores</a>
+                            </li>
+                            <li class="nav-item d-flex align-self-center">
+                                <a class="nav-link  links-nav" href="#resultados">Resultados</a>
+                            </li>
+                            <li class="nav-item d-flex align-self-center">
+                                <a class="nav-link  links-nav" href="#contacto">Contácto</a>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                    
+            </header>
+            <!--SHOWS MOBILE NAV-->
+            <div class="container-fluid d-xl-none d-lg-block d-md-block d-block mt-3 ">
+                <div class="row">
+                    <nav  class=" col-12 pb-4">
+                        <div class="col-3">
+                             <div class="nav flex-column nav-pills" >
+                                <a href="#inicio" class="nav-link" >Inicio</a>
+                                <a href="#capacitaciones" class="nav-link" >Capacitaciones</a>
+                                <a href="#testimonios" class="nav-link" >Testimonios</a>
+                                <a href="#facilitadores" class="nav-link" >Facilitadores</a>
+                                <a href="#resultados" class="nav-link" >Resultados</a>
+                                <a href="#contacto" class="nav-link">Contácto</a>
+                            </div> 
+                        </div>
+                    </nav>  
+                </div>
+            </div>
+        </div>
+     </nav>
+ </div>
+</div>
+    <!--FIRST SECTION INICIO-->
+<div class="container-fluid bg-landing text-center" id="inicio">
+        <div class="row justify-content-center d-flex py-xl-5 py-lg-5 py-md-3 py-sm-0 py-0">
+            <div class="col-12 mt-5 pt-5">
+                     <h1 class="light-text pt-5 tittleLanding">Lorem ipsum dolor sit amet consec adiping elit. Nisi, aliquid.</h1>
+            </div>
+            <div class="col-12 d-inline-block pb-5">
+                <a type="button" class="btn btn-success btn-lg mt-3 text-light">Large button</a>
+                <a type="button" class="btn btn-success btn-lg mt-3 text-light">Large button</a> 
+            </div>    
+        </div>
+    </div>
+    <!--SECOND SECTION ACERCA DE MEJOREMOS-->
+	<div class="container-fluid ">
+        <div class="row justify-content-center d-flex">
+            <div class="col-10">
+                     <h2 class="light-text tittle2Landing pt-5 text-center">Lorem ipsum dolor sit amet</h2>
+            </div>
+            <div class="col-8">
+                     <h3 class="light-text text-center subtittle py-1 px-1">Sobre Mejoremos Costa Rica</h3>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 mt-5">
+                     <p class="light-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, aliquid. Similique, totam provident veniam molestias architecto minus nulla soluta voluptates mollitia deserunt sit sed atque dolor tempora omnis. Error, dolor!</p>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-12 my-5">
+                     <p class="light-text text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, aliquid. Similique, totam provident veniam molestias architecto minus nulla soluta voluptates mollitia deserunt sit sed atque dolor tempora omnis. Error, dolor!</p>
+            </div>
+            <div class="col-xl-8 col-lg-8 col-md-10 col-12 pr-0 pl-0 mb-5">
+                     <iframe autoplay="true" width="100%" height="515" src="https://www.youtube.com/embed/t2ByLmLnYJ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div> 
+        </div>
+    </div>
+    
+    <!--THIRD SECTION FACILITADORES-->
+    <div class="container-fluid text-center bg-dark bg-landing2" id="facilitadores">
+        <div class="row justify-content-center d-flex ">
+            <div class="col-12">
+                     <h2 class="light-text tittleLanding  text-center">Facilitadores</h2>
+            </div>
+            <div class="col-8">
+                     <h3 class="text-dark text-center subtittle2  py-1 px-1">Podés ser uno de ellos</h3>
+            </div>            
+            <div class="col-xl-10 col-lg-10 col-md-10 col-12 text-justify">
+                    <p class="text-light my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, aliquid. Similique, totam provident veniam molestias architecto minus nulla soluta voluptates mollitia deserunt sit sed atque dolor tempora omnis. Error, dolor! Fsoluta voluptates mollitia deserunt sit sed atque dolor tempora omnis. Error, dolor! omnis. Error, dolor! omnis. Error, dolor!</p> 
+            </div>  
+            <div class="col-12 ">
+                        <a class="btn btn-success"  href="#">Sé un facilitador</a>  
+            </div>  
+        </div>
+    </div>  
+      
+    <!--FORTH SECTION CAPACITACIONES-->
+	<div class="container-fluid text-center pb-5" id="capacitaciones">
+        <div class="row justify-content-center d-flex ">
+            <div class="col-12">
+                     <h2 class="light-text tittle2Landing pt-5 text-center">Capacitaciones</h2>
+            </div>
+            <div class="col-8">
+                     <h3 class="light-text text-center subtittle  py-1 px-1">Presenciales y en línea</h3>
+            </div>
+            
+            <div class="col-xl-10 col-lg-10 col-md-10 col-12 text-justify">
+                    <p class="text-muted my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, aliquid. Similique, totam provident veniam molestias architecto minus nulla soluta voluptates mollitia deserunt sit sed atque dolor tempora omnis. Error, dolor! Fsoluta voluptates mollitia deserunt sit sed atque dolor tempora.</p> 
+            </div> 
+            <div class="col-xl-3 col-lg-4 col-md-4 col-12 m-1 mt-4 ">
+                <div class="contenedor effect-roxy">
+                    <img src="http://localhost/wordpress/wp-content/themes/mejoremosCR/image/example.jpg" alt="" class="image">
+                    <div class="caption">
+                        <a href="https://www.google.com" class="text-cap">ver más</a>
+                        <h2 class="mt-3 ">Capacitación</h2>
+                        <p class="mt-3 p-1"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <h5 class="p-1 mt-xl-4 mt-lg-2 float-right">00 de 00 del año</h5> 
+                    </div>
+                </div>
+            </div>   
+            <div class="col-xl-3 col-lg-4 col-md-4 col-12 m-1 mt-4 ">
+            <a href="">
+            <figure class="effect-roxy">
+                        <img src="http://localhost/wordpress/wp-content/themes/mejoremosCR/image/cap-1.jpg" alt="img01"/>
+                        <figcaption>
+                        <a href="https://www.google.com" class="position-absolute">ver más</a>
+                            <h2 class="">Capacitación</h2>
+                            <p class=""> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h5 class="">00 de 00 del año</h5>         
+                        </figcaption>           
+            </figure>
+                </a> 
+                </div>     
+                <div class="col-xl-3 col-lg-4 col-md-4 col-12 m-1 mt-4">
+                <a href="#">
+                    <figure class="effect-roxy">
+                        <img src="http://localhost/wordpress/wp-content/themes/mejoremosCR/image/cap-2.jpg" alt="img01"/>
+                        <figcaption>
+                            <h2 class="mt-3 ">Capacitación</h2>
+                            <p class="mt-3 p-1"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h5 class="p-1 mt-xl-4 mt-lg-2 float-right">00 de 00 del año</h5>         
+                        </figcaption>           
+                    </figure>
+                </a> 
+                </div>         
+                <div class="col-xl-3 col-lg-4 col-md-4 col-12 m-1 mt-4">    
+                <a href="#">
+                <figure class="effect-roxy">
+                        <img src="http://localhost/wordpress/wp-content/themes/mejoremosCR/image/cap-3.jpg" alt="img01"/>
+                        <figcaption>
+                            <h2 class="mt-3 ">Capacitación</h2>
+                            <p class="mt-3 p-1"> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <h5 class="p-1 mt-xl-4 mt-lg-2 float-right">00 de 00 del año</h5>         
+                        </figcaption>           
+                    </figure>
+                </a> 
+                </div>         
+                
+               
+            
+        </div>
+    </div>
+    <!--FIFTH SECTION TESTIMONIOS text-center-->
+	<div class="container-fluid"  style="background:#02070f;" id="testimonios">
+        <div class="row justify-content-center d-flex ">
+            <div class="col-12">
+                     <h2 class="light-text tittleLanding pt-5 text-center">Testimonios</h2>
+            </div>
+            <div class="col-8">
+                     <h3 class="light-text text-center subtittle2  py-1 px-1">Cambiando vidas</h3>
+            </div>
+            
+            <div class="col-xl-10 col-lg-10 col-md-10 col-12 text-justify">
+                    <p class="text-muted my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, aliquid. Similique, totam provident veniam molestias architecto minus nulla soluta voluptates mollitia deserunt sit sed atque dolor tempora omnis. Error, dolor! Fsoluta voluptates mollitia deserunt sit sed atque dolor tempora.</p> 
+            </div> 
+            
+           
+            
+                <div class="col-xl-3 col-lg-4 col-md-4 col-12 m-1 mt-4 mb-5">
+                    <a href="#" type="button" class="" data-toggle="modal" data-target="#exampleModalCenter">
+                        <figure class="effect-sadie">
+                            <img src="http://localhost/wordpress/wp-content/themes/mejoremosCR/image/test-1.jpg" alt="img01"/>
+                            <figcaption>
+                            <a href="https://www.google.com" class="position-absolute">ver más</a>
+                                    <h2>Nombre</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, aliquid. Similique.</p>
+                            </figcaption>               
+                        </figure>
+                    </a> 
+                </div>     
+                <div class="col-xl-3 col-lg-4 col-md-4 col-12 m-1 mt-4 mb-5">
+                    <a href="#">
+                        <figure class="effect-sadie">
+                            <img src="http://localhost/wordpress/wp-content/themes/mejoremosCR/image/example.jpg" alt="img01"/>
+                            <figcaption>
+                                    <h2>Nombre</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, aliquid. Similique.</p>
+                            </figcaption>              
+                        </figure>
+                     </a> 
+                </div>         
+                <div class="col-xl-3 col-lg-4 col-md-4 col-12 m-1 mt-4 mb-5">    
+                    <a href="#">
+                        <figure class="effect-sadie">
+                                <img src="http://localhost/wordpress/wp-content/themes/mejoremosCR/image/example.jpg" alt="img01"/>
+                                <figcaption>
+                                    <h2>Nombre</h2>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, aliquid. Similique.</p>
+                            </figcaption>               
+                        </figure>
+                    </a> 
+                </div>         
+                
+               
+
+        </div>
+    </div>
+
+        <!-- Modal 1-->
+        <div style="background:#000;" class="modal container-fluid fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div style="background:#000; border:none !important;" class="modal-content">
+            <div class="modal-header" style=" border:none !important;">
+                <h5 class="modal-title" id="exampleModalCenterTitle text-light">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="col-12 mb-5 pr-0 pl-0">
+                        <iframe autoplay="true" width="100%" height="430" src="https://www.youtube.com/embed/t2ByLmLnYJ8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="modal-footer" style=" border:none !important;">
+                    <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                </div>        
+            </div>
+            
+            </div>
+        </div>
+        </div>
+
+
+    <!--SIXTH SECTION: RESULTADOS-->
+	<div class="container-fluid text-center mb-5" id="resultados">
+        <div class="row justify-content-center d-flex ">
+            <div class="col-12">
+                     <h2 class="light-text tittle2Landing pt-5 text-center">Resultados</h2>
+            </div>
+            <div class="col-8">
+                     <h3 class="light-text text-center subtittle  py-1 px-1">Subtittle</h3>
+            </div>
+            <div class="col-xl-10 col-lg-10 col-md-10 col-12 text-justify">
+                    <p class="text-muted my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi, aliquid. Similique, totam provident veniam molestias architecto minus nulla soluta voluptates mollitia deserunt sit sed atque dolor tempora omnis. Error, dolor! Fsoluta voluptates mollitia deserunt sit sed atque dolor tempora.</p> 
+            </div> 
+            <div class="col-xl-3 col-lg-3 col-md-3 col-12  ">
+                <img width="150px;" src="http://localhost/wordpress/wp-content/themes/mejoremosCR/image/facilitadores.svg" alt="">
+                <p class="text-dark text-center text-testimonios mt-2">Facilitadores <br><span>0,000</span></p>
+                     
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-12 ">
+                 <img width="150px;" src="http://localhost/wordpress/wp-content/themes/mejoremosCR/image/mesasRedondas.svg" alt="">
+                <p class="text-dark text-center text-testimonios mt-2">Mesas redondas <br><span>0,000</span></p>
+                   
+            </div>
+            <div class="col-xl-3 col-lg-3 col-md-3 col-12  ">
+                <img width="150px;" src="http://localhost/wordpress/wp-content/themes/mejoremosCR/image/participantes.svg" alt="">
+                <p class="text-dark text-center text-testimonios ">Participantes de mesas redondas <br><span>0,000</span></p>
+               
+            </div>
+            
+        </div>
+    </div>
+    
+        <!--SEVENTH SECTION: CONTACT-->
+	<footer class="container-fluid text-center" id="contacto">
+        <div class="row justify-content-center d-flex">
+            <div class="col-12">
+                     <h2 class="light-text tittleLanding pt-5 text-center">Contáctenos</h2>
+            </div>
+            <div class="col-12">
+                     <h3 class="light-text text-center footesub2  py-1 px-1">Estemos en contacto</h3>
+            </div>
+            
+            
+            
+            
+        <div class="col-xl-11 col-lg-11 col-md-12 col-12">
+            <div class="d-xl-flex d-lg-flex d-md-flex d-block bd-highlight mb-3 ">
+                
+                <div class="mr-auto p-2 bd-highlight ">
+                        
+                        <h4 class="text-center footersub">Contacto</h4>
+                        <a href="tel:2290-1104" class="contact-links d-block text-xl-left text-lg-left text-md-left text-center"><i class="fas fa-phone mr-1 text-light"></i>2290-1104</a>
+                        <a href="tel:2290-1209" class="contact-links d-block text-xl-left text-lg-left text-md-left text-center "><i class="fas fa-phone mr-1 text-light"></i>2290-1209</a>
+                        <a href="tel:2290-1192" class="contact-links d-block text-xl-left text-lg-left text-md-left text-center "><i class="fas fa-phone mr-1 text-light"></i>2290-1192</a>
+                        <a href="tel:8871-2727" class="contact-links d-block text-xl-left text-lg-left text-md-left text-center "><i class="fab fa-whatsapp mr-1 text-light"></i>8871-2727</a>
+                        <a href="mailto:info@mejoremoscostarica.com" class="contact-links d-block text-xl-left text-lg-left text-md-left text-center "><i class="fas fa-at mr-1 text-light"></i>info@mejoremoscostarica.com</a>
+                    
+
+                </div>
+                <div class="p-2 bd-highlight">
+                
+                        <h4 class="text-center footersub">Organiza</h4>
+                        <a class="d-inline ">
+                                <img class="img-fluid" src="http://localhost/wordpress/wp-content/themes/mejoremosCR/image/transformacion-logo.png" title="Transformación COsta Rica" alt="Transformación Costa Rica">
+                                </a>
+                            <a class="d-inline ">
+                                <img class="img-fluid" src="http://localhost/wordpress/wp-content/themes/mejoremosCR/image/maxwell-logo.png" title="John Maxwell" alt="John Maxwell">
+                                </a>
+                    
+
+                </div>
+            </div>
+
+                    <p class="text-muted text-center pt-3 desarrollado">Copyright © 2019 | ℗ <a href="#" style="color:lightpink;">Pigflex</a><br>-Fabricio Orellana-</p> 
+            </div> 
+        </div>
+    </footer>
+	
+        
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
+
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+
+    </body>   
+
+    
+
+</html>
